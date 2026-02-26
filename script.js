@@ -155,3 +155,21 @@ console.log(st3);
 let n1 = 5;
 n1  **= 4;
 console.log(n1);
+
+//25
+console.log(6 == '6'); // value check
+console.log(6 === '6'); // value and type check
+
+//26
+console.log(5 == "5");
+console.log(5 === "5");
+
+//27
+let g = 13;
+console.log(g > 10 && g < 50);
+
+//28
+console.log(10 != "10"); // false they are equal
+console.log(10 !== "10"); // true they are not equal in type
+
+//29
