@@ -52,8 +52,8 @@ const city = "Paris";
 //city = "London"; cant reassign a const
 
 //11
-var num = 10;
-console.log(typeof num);
+//var num = 10;
+//console.log(typeof num);
 
 var st = "hi";
 console.log(typeof st);
@@ -116,4 +116,42 @@ console.log(v++);
 console.log(++v);
 console.log( v = v + 1);
 
+//21
+let num = 10;
 
+num += 5;
+console.log(num);
+
+num -= 3;
+console.log(num);
+
+num *= 2;
+console.log(num);
+
+num /= 4;
+console.log(num);
+
+num %= 3;
+console.log(num);
+
+//22
+let b = 5;
+b += 10;
+b -= 3;
+b *= 2;
+console.log(b);
+
+//23
+let st1 = "hi";
+let st2 = " my name is alaa";
+
+let st3 = "";
+st3 += st1; 
+st3 += st2; 
+
+console.log(st3);
+
+//24
+let n1 = 5;
+n1  **= 4;
+console.log(n1);
